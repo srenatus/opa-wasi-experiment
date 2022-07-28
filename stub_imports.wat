@@ -1,5 +1,4 @@
 (module
-    ;;(memory 100)
     (import "env" "memory" (memory 100))
     (export "memory" (memory 0))
 
@@ -9,6 +8,4 @@
     (func (export "opa_builtin3") (param i32 i32 i32 i32 i32) (result i32) unreachable )
     (func (export "opa_builtin4") (param i32 i32 i32 i32 i32 i32) (result i32) unreachable )
     (func (export "opa_abort") (param i32) unreachable )
-    
-    ;;(func $main (export "_start") )
 )
