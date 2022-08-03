@@ -9,7 +9,6 @@ be run with a plain WASI host.
 
 Requirements:
 
-- `wabt` from https://github.com/WebAssembly/wabt/ (or brew, or whatever)
 - `export-audit` and `wasmlink` from https://github.com/fixpointOS/wasm-tools/
 - [zig](https://ziglang.org/)
 
